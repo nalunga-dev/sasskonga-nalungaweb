@@ -101,11 +101,13 @@ form {
 @media (max-width: 948px) {
   form {
     width: 100%;
+    background-color: white;
   }
 }
 
 input {
   background-color: white;
+  color: grey;
   width: 90%;
   outline: none;
   border: none;
@@ -118,6 +120,11 @@ input {
   color: white;
   font-size: 0.9rem;
   margin: auto;
+}
+@media (max-width: 948px) {
+  .bx-search {
+    color: gray;
+  }
 }
 
 .help {
@@ -243,6 +250,11 @@ input {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.5rem;
+}
+@media (max-width: 980px) {
+  .shopnow .Deals {
+    width: 100%;
+  }
 }
 
 .granier {

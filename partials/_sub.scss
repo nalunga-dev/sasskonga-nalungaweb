@@ -60,10 +60,12 @@ form {
   border-radius: 0.4rem;
   @media (max-width: 948px) {
     width: 100%;
+    background-color: white;
   }
 }
 input {
   background-color: white;
+  color: grey;
   width: 90%;
   outline: none;
   border: none;
@@ -75,6 +77,9 @@ input {
   color: white;
   font-size: 0.9rem;
   margin: auto;
+  @media (max-width: 948px) {
+    color: gray;
+  }
 }
 .help {
   color: white;
