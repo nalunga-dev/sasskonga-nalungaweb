@@ -9,13 +9,5 @@ body {
   width: 95%;
   min-height: 100vh;
   background-color: #f2f2f2;
-}
-section {
-  padding: 0.8rem;
   margin: auto;
-  @media (max-width: 609px) {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
 }

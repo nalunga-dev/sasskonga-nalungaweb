@@ -10,18 +10,7 @@ body {
   width: 95%;
   min-height: 100vh;
   background-color: #f2f2f2;
-}
-
-section {
-  padding: 0.8rem;
   margin: auto;
-}
-@media (max-width: 609px) {
-  section {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
 }
 
 .nav {
@@ -343,8 +332,6 @@ input {
 
 .second-section {
   padding: 0.8rem;
-  width: 99%;
-  margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 10px;
@@ -547,8 +534,6 @@ input {
 }
 
 .electronics {
-  width: 99%;
-  margin: auto;
   margin-top: 0.8rem;
   background-color: white;
   border-radius: 0.5rem;
@@ -569,8 +554,6 @@ input {
 }
 
 .official {
-  width: 99%;
-  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
@@ -616,8 +599,6 @@ input {
   border-top-right-radius: 0.5rem;
   display: flex;
   padding: 0.6rem;
-  width: 98.8%;
-  margin: auto;
   margin-top: 0.7rem;
   gap: 1rem;
   color: black;
