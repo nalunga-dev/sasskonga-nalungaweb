@@ -7,24 +7,19 @@
 }
 
 body {
-  width: 95%;
+  max-width: 95%;
+  margin: auto;
   min-height: 100vh;
   background-color: #f2f2f2;
-  margin: auto;
 }
 
-.nav {
-  width: 100%;
-}
-
-.promotion {
+.nav .promotion {
   width: 100%;
   display: block;
 }
 
 .travel {
   background-color: #f6f6f6;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,8 +38,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem;
-  width: 100%;
+  padding: 1rem;
 }
 
 .konga {
@@ -241,7 +235,6 @@ input {
   align-items: center;
   justify-content: space-between;
   font-size: 0.8rem;
-  width: 100%;
 }
 @media (max-width: 980px) {
   .categories {
@@ -253,7 +246,6 @@ input {
 }
 
 .shopnow {
-  width: 100%;
   display: flex;
   gap: 1rem;
   padding: 1rem;
@@ -298,7 +290,6 @@ input {
 }
 
 .blog {
-  width: 100%;
   display: flex;
   gap: 0.8rem;
   align-items: center;
@@ -317,13 +308,9 @@ input {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   display: flex;
-  padding: 0.6rem;
-  width: 98.8%;
-  margin: auto;
-  margin-top: 0.7rem;
+  padding: 0.5rem;
   gap: 1rem;
   color: white;
-  font-size: 1rem;
 }
 
 .firsta {
@@ -425,8 +412,6 @@ input {
   display: flex;
   gap: 1.5rem;
   padding: 0.6rem;
-  width: 98.8%;
-  margin: auto;
   align-items: center;
   padding: 0.8rem;
   position: relative;
@@ -466,9 +451,7 @@ input {
 
 .fourth-section {
   padding: 0.9rem;
-  width: 99%;
   background-color: white;
-  margin: auto;
   display: flex;
   gap: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -534,7 +517,6 @@ input {
 }
 
 .electronics {
-  margin-top: 0.8rem;
   background-color: white;
   border-radius: 0.5rem;
   padding-top: 0.8rem;
@@ -588,27 +570,13 @@ input {
   border-radius: 0.5rem;
 }
 
-.adaptor {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-}
-.adaptor .first {
-  background-color: #ffffff;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  display: flex;
-  padding: 0.6rem;
-  margin-top: 0.7rem;
-  gap: 1rem;
-  color: black;
-  font-size: 1rem;
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.firsta {
-  font-size: 1.5rem;
-}
-
-.firstb {
-  color: #8b054d;
+section {
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
