@@ -17,6 +17,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
     gap: 0.5rem;
+    @media (max-width: 499px) {
+      grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    }
     .LG {
       background: plum;
       border-radius: 0.5rem;
